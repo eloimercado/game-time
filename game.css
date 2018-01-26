@@ -1,5 +1,10 @@
+/* add a border to canvas so it stands out from the background.
+*/
+
 #game {
-  border: 1px solid;
+  border: 5px solid #4A7023;
+  background-color: #3CB371;
+  border-radius: 25px 25px 25px 25px / 25px 25px 25px 25px;
   margin: auto;
   display: block;
 }
