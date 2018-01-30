@@ -8,7 +8,7 @@ describe('Block', function() {
     // Your tests here... 
 
   it('should be a function', function() {
-    assert.isFunction(Wizard);
+    assert.isFunction(Block);
   });
 
 
