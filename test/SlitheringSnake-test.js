@@ -3,12 +3,12 @@ var assert = chai.assert;
 
 var SlitheringSnake = require('../lib/SlitheringSnake');
 
-describe('SlitheringSnake', function() {
+describe('SlitheringSnake', () => {
   // context('with default attributes', function() {
     // Your tests here... 
   var slitheringSnake;
 
-  beforeEach(function() {
+  beforeEach(() => {
     slitheringSnake = new SlitheringSnake(250, 250, 'right');
 
   });
