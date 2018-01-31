@@ -8,3 +8,7 @@
   margin: auto;
   display: block;
 }
+
+#game-over {
+  display: none;
+}
