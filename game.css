@@ -1,5 +1,38 @@
-#game {
-  border: 1px solid;
-  margin: auto;
-  display: block;
+/* add a border to canvas so it stands out from the background.
+*/
+
+body {
+  position: relative;
+  top: 0px;
+  left: 0px; 
+
 }
+
+#game {
+  border: 5px solid #4A7023;
+  background-color: #3CB371;
+  border-radius: 25px 25px 25px 25px / 25px 25px 25px 25px;
+  align-content: center;
+  
+}
+
+canvas {
+  position: absolute;
+  top: 0px;
+  left: 25vw;
+}
+
+#game-over {
+  display: none;
+  position: absolute;
+  top: 530px;
+  left: 25vw;
+  color: red;
+}
+
+#instructions {
+  position: absolute;
+  top: 510px;
+  left: 25vw;
+}
+
