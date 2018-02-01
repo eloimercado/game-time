@@ -4,13 +4,16 @@
 body {
   position: relative;
   top: 0px;
-  left: 0px; 
-
+  left: 0px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #38434E; 
 }
 
 #game {
   border: 5px solid #4A7023;
-  background-color: #3CB371;
+  background-size: 500px 500px;
+  background-image: url("https://i.pinimg.com/originals/ab/67/47/ab6747783c85e19b4c0aeeb8172015f8.png");
   border-radius: 25px 25px 25px 25px / 25px 25px 25px 25px;
   align-content: center;
   
@@ -24,22 +27,42 @@ canvas {
 
 div {
   position: absolute;
-  top: 560px;
-  left: 37vw;
+  top: 580px;
+  left: 29.5vw;
 
 }
 
 #game-over {
   display: none;
   position: absolute;
-  top: 580px;
-  left: 33vw;
-  color: red;
+  top: 40px;
+  left: 35vw;
 }
 
 #instructions {
+  font-family: 'Permanent Marker', cursive;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px;
+  color: #A5C73F;
   position: absolute;
   top: 510px;
-  left: 27vw;
+  left: 24vw;
+}
+
+#new-game,
+#btn,
+#make-hard {
+  outline: none;
+  background-color: #80972F;
+  border-color: #526E2F;
+  border-radius: 12px;
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+#new-game:hover,
+#btn:hover,
+#make-hard:hover {
+  background-color: #AFC755;
 }
 
