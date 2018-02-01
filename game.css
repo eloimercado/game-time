@@ -19,20 +19,27 @@ body {
 canvas {
   position: absolute;
   top: 0px;
-  left: 25vw;
+  left: 30vw;
+}
+
+div {
+  position: absolute;
+  top: 560px;
+  left: 37vw;
+
 }
 
 #game-over {
   display: none;
   position: absolute;
-  top: 530px;
-  left: 25vw;
+  top: 580px;
+  left: 33vw;
   color: red;
 }
 
 #instructions {
   position: absolute;
   top: 510px;
-  left: 25vw;
+  left: 27vw;
 }
 
