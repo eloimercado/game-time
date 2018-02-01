@@ -5,7 +5,7 @@
   <link href='./game.css' rel='stylesheet' type='text/css'/>
   <title>Game Time</title>
 </head>
-<body>
+<body >
 	<p id="score"></p>
   <canvas 
     id="game" 
@@ -13,10 +13,10 @@
     height="500">
     
   </canvas>
-  <p>
-    Press a Start button to choose your level.  Then, use the arrow keys to move to eat a yummy mouse!
-    <button id='btn-level1'>START Level 1</button>
-    <button id='btn-level2'>START Level 2</button>
+  <p id='instructions'>
+    Press Start button and use the arrow keys to move to eat a yummy mouse!
+    
+    <button id='btn'>START</button>
   </p>
   <p id="game-over">Game Over! Don't collide with the wall!  Don't try to eat yourself!</p>
   <script src="main.bundle.js"></script>
