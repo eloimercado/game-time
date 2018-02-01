@@ -33,22 +33,4 @@ describe('Game', () => {
     assert.equal(actual, expected);
   });
 
-  it('should keep score', () => {
-    const sampleSnake = {snake:[{x: 250, y:250},
-                    {x: 250, y:240},
-                    {x: 250, y:230},
-                    {x: 250, y:220},
-                    {x: 250, y:210},
-                    {x: 250, y:200},
-                    {x: 250, y:190},
-                    {x: 250, y:180}]};
-    newGame.keepScore(sampleSnake);
-    const expected = 3;
-    const actual = newGame.score;
-    assert.equal(actual, expected);
-  });
-
-
-
-
   });  
