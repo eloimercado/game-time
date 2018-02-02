@@ -15,12 +15,6 @@ describe('Game', () => {
     assert.isFunction(Game)
   });
 
-  it('should have an arrray of mice', () => {
-    const expected = [];
-    const actual = newGame.mice;
-    assert.deepEqual(actual, expected);
-  });
-
   it('should have starting score of 0', () => {
     const expected = 0;
     const actual = newGame.score;
