@@ -1,16 +1,12 @@
 var chai = require('chai');
 var assert = chai.assert;
-
 var SlitheringSnake = require('../lib/SlitheringSnake');
 
 describe('SlitheringSnake', () => {
-  // context('with default attributes', function() {
-    // Your tests here... 
   var slitheringSnake;
 
   beforeEach(() => {
     slitheringSnake = new SlitheringSnake(250, 250, 'right');
-
   });
 
   it('should be a funtion', () => {
@@ -55,12 +51,9 @@ describe('SlitheringSnake', () => {
     const canvas = {height: 500,
                     width: 500
                   }
-
     const actual = slitheringSnake.checkWallCollision(500,10, canvas);
     const expected = true;
 
     assert.equal(actual, expected);
   });
-
-
 });  

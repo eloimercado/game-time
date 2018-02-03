@@ -1,13 +1,9 @@
 var chai = require('chai');
 var assert = chai.assert;
-
 var Block = require('../lib/Block');
 
 describe('Block', () => {
-  // context('should be a function', function() {
-    // Your tests here...
   var block;
-
 
   beforeEach(() => {
     block = new Block(250, 250, 'sienna', 10, 10);
@@ -46,6 +42,4 @@ describe('Block', () => {
     const actual = block.height;
     assert.equal(actual, expected);
   })
-
-
 });  
