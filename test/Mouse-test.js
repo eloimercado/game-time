@@ -1,16 +1,12 @@
 var chai = require('chai');
 var assert = chai.assert;
-
 var Mouse = require('../lib/Mouse');
 
-describe('Mouse', () => {
-  // context('with default attributes', function() {
-    // Your tests here... 
+describe('Mouse', () => { 
   var mouse;
 
   beforeEach(() => {
     mouse = new Mouse(250, 250,);
-
   });
 
   it('should be a funtion', () => {

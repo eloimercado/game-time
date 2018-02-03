@@ -1,6 +1,5 @@
 var chai = require('chai');
 var assert = chai.assert;
-
 var Game = require('../lib/Game');
 
 describe('Game', () => {
@@ -26,5 +25,4 @@ describe('Game', () => {
     const actual = newGame.done;
     assert.equal(actual, expected);
   });
-
-  });  
+});  
